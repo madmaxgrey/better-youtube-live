@@ -5,8 +5,8 @@ Even if you do not intend to watch in Theater Mode, the YouTube Livestreams Thea
 ## Instructions
 
 1. Install the YouTube Livestreams Theater Mode extension:
-    - [Chrome](https://chrome.google.com/webstore/detail/youtube-livestreams-thea/gjbkpfabdnmkjkpbnploehbeabpbhokb)
-    - [Firefox](https://addons.mozilla.org/en-US/firefox/addon/youtube-livestreams-theater/)
+    - [Chrome](https://chromewebstore.google.com/detail/youtube-livestreams-theat/cmjhejfkhdonjimgkinjdombabgfbcal)
+    - [Firefox](https://addons.mozilla.org/en-US/firefox/addon/youtubelivestreamstheatermode/)
 
 2. After installing the extension, make sure to click on it and go to the options; suggested settings shown below:
 
@@ -31,8 +31,8 @@ The YouTube Live Stream Latency Mitigator extension will fast forward YouTube li
 ## Instructions
 
 1. Install the YouTube Live Stream Latency Mitigator extension:
-    - [Chrome](https://chrome.google.com/webstore/detail/youtube-live-stream-late/ggfjgkblfjfpbbkcbjlpdcmkdcjmceec)
-    - [Firefox](https://addons.mozilla.org/en-US/firefox/addon/youtube-live-stream-late/)
+    - [Chrome](https://chromewebstore.google.com/detail/youtube-live-stream-laten/ambdnabnehojedeaffciphbmfhfmfmjp?hl=en)
+    - [Firefox](https://addons.mozilla.org/en-US/firefox/addon/youtube-live-stream-laten/)
 
 2. Optionally, configure the extension by clicking on it as shown below:
 
@@ -76,7 +76,7 @@ Please note that by default, the enhanced-h264ify extension disables everything 
 ## Instructions
 
 1. Install the enhanced-h264ify extension:
-    - [Chrome](https://chrome.google.com/webstore/detail/enhanced-h264ify/ljfoemjcjgnkjmoheaaijpjkpoaonfpm)
+    - [Chrome](https://chromewebstore.google.com/detail/enhanced-h264ify/omkfmpieigblcllmkgbflkikinpkodlk?hl=en)
     - [Firefox](https://addons.mozilla.org/en-US/firefox/addon/enhanced-h264ify/)
 
 2. Refresh any already open YouTube streams.
