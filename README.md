@@ -16,11 +16,11 @@ Even if you do not intend to watch in Theater Mode, the YouTube Livestreams Thea
 
 For a detailed review of the settings and their impact, you can refer to this link:
 
-![Settings Review](https://sy.imgix.net/youtubetheater.png?w=.5&h=.5)
+![Settings Review](https://raw.githubusercontent.com/madmaxgrey/better-youtube-live/main/Preview%20Images/settings_preview.png)
 
 *After setup preview:*
 
-![Settings Preview](https://sy.imgix.net/youtubetheaterpreview.png?w=.2&h=.2)
+![Settings Preview](https://raw.githubusercontent.com/madmaxgrey/better-youtube-live/main/Preview%20Images/after_setup_preview.png)
 
 ## Fix Buffering/Latency Issues
 
@@ -38,7 +38,7 @@ The YouTube Live Stream Latency Mitigator extension will fast forward YouTube li
 
 *Preview:*
 
-![Latency Mitigator Preview](https://sy.imgix.net/image.png)
+![Latency Mitigator Preview](https://raw.githubusercontent.com/madmaxgrey/better-youtube-live/main/Preview%20Images/mitigator_preview.png)
 
 ## Enable Hardware Video Decoding With Firefox and AMD GPUs
 
@@ -52,7 +52,7 @@ If you are using Firefox with an AMD GPU, hardware video decoding is most likely
 
 *Preview:*
 
-![Hardware Video Decoding Preview](https://sy.imgix.net/firefoxforcehardware.png?w=.75&h=.75)
+![Hardware Video Decoding Preview](https://raw.githubusercontent.com/madmaxgrey/better-youtube-live/main/Preview%20Images/video_decoding_setting_preview.png)
 
 ## YouTube Playback and Performance Settings
 
@@ -65,7 +65,7 @@ If you notice that live streams are buffering a lot and/or have a lot of latency
 
 *Preview:*
 
-![AV1 Settings Preview](https://sy.imgix.net/youtubeav1.png?w=.5&h=.5)
+![AV1 Settings Preview](https://raw.githubusercontent.com/madmaxgrey/better-youtube-live/main/Preview%20Images/youtube_account_playback_preview.png)
 
 ## Using enhanced-h264ify Extension
 
@@ -85,4 +85,4 @@ Please note that by default, the enhanced-h264ify extension disables everything 
 
 *Preview:*
 
-![Enhanced-h264ify Preview](https://sy.imgix.net/eh264ify.png?w=.75&h=.75)
+![Enhanced-h264ify Preview](https://raw.githubusercontent.com/madmaxgrey/better-youtube-live/main/Preview%20Images/enhanced_h264ify_settings_preview.png)
