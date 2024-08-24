@@ -46,7 +46,7 @@ If you are using Firefox with an AMD GPU, hardware video decoding is most likely
 
 ## Instructions
 
-1. Navigate to <span style="color:red;">`about:config`</span>.
+1. Navigate to `about:config`.
 2. Enter `media.hardware-video-decoding.force-enabled` in the search box.
 3. Toggle the setting to `true` as shown below:
 
