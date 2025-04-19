@@ -1,88 +1,77 @@
-# Make YouTube Live Streams Look More Like Twitch
+# 🎥 Make YouTube Live Feel More Like Twitch
 
-Even if you do not intend to watch in Theater Mode, the YouTube Livestreams Theater Mode extension is recommended for watching YouTube live streams. It adds quite a few useful options, including defaulting the chat to Live chat instead of Top chat and adding colors to usernames to make them easier to tell apart.
+Want that Twitch-like experience while watching YouTube live streams? Here's how to get smoother playback, better chat, and enhanced visuals with just a few tweaks and extensions.
 
-## Instructions
+---
 
-1. Install the YouTube Livestreams Theater Mode extension:
-    - [Chrome](https://chromewebstore.google.com/detail/youtube-livestreams-theat/cmjhejfkhdonjimgkinjdombabgfbcal)
-    - [Firefox](https://addons.mozilla.org/en-US/firefox/addon/youtubelivestreamstheatermode/)
+## 🧩 Essential Extension: YouTube Livestreams Theater Mode
 
-2. After installing the extension, make sure to click on it and go to the options; suggested settings shown below:
+Even if you don't use Theater Mode, this extension is highly recommended. It:
+- Defaults chat to **Live chat** instead of Top chat  
+- Adds **colored usernames** to make chat easier to follow  
+- Offers various visual and functional tweaks
 
-## Settings
+👉 Install:  
+[Chrome](https://chromewebstore.google.com/detail/youtube-livestreams-theat/cmjhejfkhdonjimgkinjdombabgfbcal) | [Firefox](https://addons.mozilla.org/en-US/firefox/addon/youtubelivestreamstheatermode/)
 
-### Settings Review
+🔧 After installing, **click the extension icon** and configure it. Suggested settings below:
 
-For a detailed review of the settings and their impact, you can refer to this link:
+**Settings Preview:**  
+![Settings](https://raw.githubusercontent.com/madmaxgrey/better-youtube-live/main/Preview%20Images/settings_preview.png)  
+**After Setup Example:**  
+![After Setup](https://raw.githubusercontent.com/madmaxgrey/better-youtube-live/main/Preview%20Images/after_setup_preview.png)
 
-![Settings Review](https://raw.githubusercontent.com/madmaxgrey/better-youtube-live/main/Preview%20Images/settings_preview.png)
+---
 
-*After setup preview:*
+## ⚡ Fix Stream Lag & Buffering: YouTube Latency Mitigator
 
-![Settings Preview](https://raw.githubusercontent.com/madmaxgrey/better-youtube-live/main/Preview%20Images/after_setup_preview.png)
+If the 🔴 **LIVE** badge isn't bright red, you're behind! This extension **auto-catches up** to real-time — just like Twitch does.
 
-## Fix Buffering/Latency Issues
+👉 Install:  
+[Chrome](https://chromewebstore.google.com/detail/youtube-live-stream-laten/ambdnabnehojedeaffciphbmfhfmfmjp?hl=en) | [Firefox](https://addons.mozilla.org/en-US/firefox/addon/youtube-live-stream-laten/)
 
-In general, YouTube does not prioritize keeping live stream latency as low as Twitch does. If you hover over the video and see that the LIVE indicator next to the volume slider is grayed out, the video has fallen behind the live stream.
+Optional: Configure after install.  
+**Preview:**  
+![Latency Mitigator](https://raw.githubusercontent.com/madmaxgrey/better-youtube-live/main/Preview%20Images/mitigator_preview.png)
 
-The YouTube Live Stream Latency Mitigator extension will fast forward YouTube live streams in order to catch up with the live stream when you fall behind (similar to the default behavior of Twitch).
+---
 
-## Instructions
+## 🧠 Enable Video Hardware Decoding on Firefox (AMD GPUs)
 
-1. Install the YouTube Live Stream Latency Mitigator extension:
-    - [Chrome](https://chromewebstore.google.com/detail/youtube-live-stream-laten/ambdnabnehojedeaffciphbmfhfmfmjp?hl=en)
-    - [Firefox](https://addons.mozilla.org/en-US/firefox/addon/youtube-live-stream-laten/)
+If you're on **Firefox + AMD**, video decoding might be disabled. Here's how to fix it:
 
-2. Optionally, configure the extension by clicking on it as shown below:
+1. Go to `about:config`  
+2. Search: `media.hardware-video-decoding.force-enabled`  
+3. Set it to `true`
 
-*Preview:*
+**Preview:**  
+![Video Decoding](https://raw.githubusercontent.com/madmaxgrey/better-youtube-live/main/Preview%20Images/video_decoding_setting_preview.png)
 
-![Latency Mitigator Preview](https://raw.githubusercontent.com/madmaxgrey/better-youtube-live/main/Preview%20Images/mitigator_preview.png)
+---
 
-## Enable Hardware Video Decoding With Firefox and AMD GPUs
+## 🎚️ Use AV1 for Better Performance (If Supported)
 
-If you are using Firefox with an AMD GPU, hardware video decoding is most likely disabled by default. To enable it, change `media.hardware-video-decoding.force-enabled` to `true` in `about:config`.
+If your PC supports AV1 decoding, tell YouTube to use it!
 
-## Instructions
+1. Visit [Playback Settings](https://youtube.com/account_playback)  
+2. Under **AV1 settings**, choose **Always prefer AV1**
 
-1. Navigate to `about:config`.
-2. Enter `media.hardware-video-decoding.force-enabled` in the search box.
-3. Toggle the setting to `true` as shown below:
+**Preview:**  
+![AV1 Settings](https://raw.githubusercontent.com/madmaxgrey/better-youtube-live/main/Preview%20Images/youtube_account_playback_preview.png)
 
-*Preview:*
+---
 
-![Hardware Video Decoding Preview](https://raw.githubusercontent.com/madmaxgrey/better-youtube-live/main/Preview%20Images/video_decoding_setting_preview.png)
+## 🛠️ Force H.264 Codec with `enhanced-h264ify`
 
-## YouTube Playback and Performance Settings
+If you're still seeing buffering or VP9 issues, this extension can force YouTube to use the H.264 codec instead.
 
-If you notice that live streams are buffering a lot and/or have a lot of latency, this may be due to YouTube using the VP9 codec without hardware decoding. If your PC supports AV1 hardware decoding, YouTube should show an option to always use AV1 under the Playback and Performance settings.
+👉 Install:  
+[Chrome](https://chromewebstore.google.com/detail/enhanced-h264ify/omkfmpieigblcllmkgbflkikinpkodlk?hl=en) | [Firefox](https://addons.mozilla.org/en-US/firefox/addon/enhanced-h264ify/)
 
-## Instructions
+🔧 By default, it disables everything **except h.264** — customize as needed.  
+**Preview:**  
+![Enhanced-h264ify](https://raw.githubusercontent.com/madmaxgrey/better-youtube-live/main/Preview%20Images/enhanced_h264ify_settings_preview.png)
 
-1. Navigate to [youtube.com/account_playback](https://youtube.com/account_playback).
-2. Select "Always prefer AV1" under AV1 settings as shown below:
+---
 
-*Preview:*
-
-![AV1 Settings Preview](https://raw.githubusercontent.com/madmaxgrey/better-youtube-live/main/Preview%20Images/youtube_account_playback_preview.png)
-
-## Using enhanced-h264ify Extension
-
-If the above does not work, the easiest way to make YouTube use a different codec is to install the enhanced-h264ify extension.
-
-Please note that by default, the enhanced-h264ify extension disables everything except h264. This can be configured by clicking on the extension after installing it.
-
-## Instructions
-
-1. Install the enhanced-h264ify extension:
-    - [Chrome](https://chromewebstore.google.com/detail/enhanced-h264ify/omkfmpieigblcllmkgbflkikinpkodlk?hl=en)
-    - [Firefox](https://addons.mozilla.org/en-US/firefox/addon/enhanced-h264ify/)
-
-2. Refresh any already open YouTube streams.
-
-3. Optionally, configure the extension by clicking on it as shown below:
-
-*Preview:*
-
-![Enhanced-h264ify Preview](https://raw.githubusercontent.com/madmaxgrey/better-youtube-live/main/Preview%20Images/enhanced_h264ify_settings_preview.png)
+✨ With these tweaks, YouTube Live gets closer to that fast, clean, Twitch-style experience — with better playback, snappier chat, and smoother video. Happy streaming!
